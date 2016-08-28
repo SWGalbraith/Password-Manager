@@ -96,8 +96,6 @@ namespace PasswordManager.UI
                             control.DeletePassword(
                                 lstPasswords.SelectedItems[0].Text, lstPasswords.SelectedItems[0].SubItems[1].Text);
                             control.PopulatePasswordList(lstPasswords);
-
-                            MessageBox.Show("Item removed successfully!");
                         }
                         catch (Exception ex)
                         {

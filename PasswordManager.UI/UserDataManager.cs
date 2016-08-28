@@ -69,8 +69,6 @@ namespace PasswordManager.UI
                     {
                         control.UpdateUserPassword(txtPassword.Text);
                     }
-
-                    MessageBox.Show("Password updated successfully!");
                 }
                 catch (Exception ex)
                 {

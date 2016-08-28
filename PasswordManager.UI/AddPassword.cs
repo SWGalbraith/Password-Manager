@@ -63,8 +63,6 @@ namespace PasswordManager.UI
             {
                 control.AddNewPassword(txtAppName.Text, txtUsername.Text, txtPassword.Text);
 
-                MessageBox.Show("Password added successfully!");
-
                 this.Close();
             }
             catch (Exception ex)

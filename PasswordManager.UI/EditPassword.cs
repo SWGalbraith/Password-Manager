@@ -121,8 +121,6 @@ namespace PasswordManager.UI
                 control.UpdatePasswordDetails(
                     oldAppName, oldUsername, txtAppName.Text, txtUsername.Text, txtConfirmPassword.Text);
 
-                MessageBox.Show("Details updated successfully!");
-
                 this.Close();
             }
             catch (Exception ex)
